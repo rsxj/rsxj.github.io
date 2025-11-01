@@ -189,9 +189,7 @@ font-size: .22rem;
 line-height: .4rem;
 	text-align: justify;
 }
-/*产品中心*/
-/* 产品优势 */
-/*工程案例*/
+
 .index #floor_4_main {
 	width: 100%;
 	background: #fff;
@@ -223,25 +221,6 @@ margin-bottom: .1rem;
 }
 
 
-/*产品中心*/
-
-/*内页样式*/
-/*recom*/
-/*subCate*/
-/*cateList*/
-/*pager*/
-/*reLink*/
-/*m-share*/
-/*showInfor*/
-/*recomNew*/
-/*showSubTit*/
-/*news.html*/
-/*fenx*/
-/*catelist*/
-/*.list_imgH li figure{padding-top: 133.333333%;}*/
-/*.messagePage .btn .reset{width: 2.72rem; height: 0.68rem; line-height: 0.68rem; text-align: center; float: left; border: 1px solid #d2d2d2; background: #f9f9f9; color: #333333; font-size: .28rem;}*/
-/*产品导航*/
-/*字体*/
 @media only screen and (min-width:641px) {
 html {
 	font-size: 100px;
