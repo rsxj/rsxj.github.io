@@ -1,0 +1,315 @@
+ /* 君儒科技（dede58.com）做最好的织梦整站模板下载网站 */
+ @charset "utf-8";
+/*==========@@HTML默认 开始@@==========*/
+/*基本*/
+* {
+	padding: 0px;
+	margin: 0px
+}
+body {
+	font-size: 100px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	box-sizing: border-box;
+}
+html {
+	width: 100%;
+	min-height: 100%;
+}
+body {
+	width: 100%;
+	min-height: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+font:.24rem/1.5 "PingFang SC", Helvetica, "Helvetica Neue", "microsoft yahei", Tahoma, Arial, sans-serif;
+	color: #666;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: #fff;
+	position: relative;
+}
+body:before, body:after {
+	content: "";
+	width: 100%;
+	display: block;
+}
+body:before {
+	height: 1rem;
+}
+body:after {
+	height: 1.1rem;
+}
+img {
+	border: 0px;
+}
+em {
+	font-style: normal;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	list-style: none outside none;
+}
+/*表单*/
+/*公用样式*/
+/*链接*/
+a, a:link, a:visited, a:hover, a:active {
+	color: #666;
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+a:hover, a:active {
+	color: #dc0000;
+	outline: none;
+}
+/*标题*/
+h3 {
+	font-weight: normal;
+}
+/*清除浮动*/
+.fl {
+	float: left;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+/*==========@@HTML默认 结束@@==========*/
+.wrapper {
+	width: 100%;
+}
+/*==========@@公共模块 开始@@==========*/
+.header {
+	background-size: 100% 1.04rem;
+}
+#top_main {
+	width: 100%;
+	height: 1rem;
+*zoom: 1;
+	z-index: 300;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+#top {
+	max-width: 640px;
+	min-width: 320px;
+	height: 1rem;
+	margin: 0px auto;
+	position: relative;
+	background: #fff;
+	box-shadow: 0 0 0.2rem rgba(0,0,0,.1);
+}
+#top .logo {
+	float: left;
+	text-align: center;
+	display: block;
+	color: #000;
+font-size: .32rem;
+padding-top: .15rem;
+margin-left: .15rem;
+}
+#top .logo img {
+	display: block;
+height: .7rem;
+	background: #dc0000;
+}
+/*subNav*/
+/*首页导航*/
+/* banner */
+/*版权信息*/
+#footer_main {
+	text-align: center;
+	width: 100%;
+	background: #fff;
+}
+#copyright {
+	width: 94%;
+	margin: 0 auto;
+	color: #666;
+	font-size: 0.24rem;
+line-height:.4rem;
+	padding: 0.2rem 0;
+}
+/* 工具栏 */
+/*==========@@页面布局 开始@@==========*/
+.index #floor_1_main {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}
+.index {
+	background: #fff;
+	overflow: hidden;
+}
+/* 首页产品 */
+.index #floor_1_main {
+	margin: 0 auto;
+	background: #fff;
+}
+.index .in_title {
+padding-top: .4rem;
+}
+.index .in_title .tit {
+font-size: .4rem;
+line-height: .45rem;
+	text-align: center;
+	color: #434343;
+}
+.index .in_title .tit span {
+	display: inline-block;
+margin: 0 .3rem;
+}
+.index .in_title .tit em {
+	display: inline-block;
+	width: 1.8rem;
+height: .02rem;
+margin-bottom: .1rem;
+	background: #cecece;
+}
+/*关于我们*/
+#floor_1_main .floor_1 {
+padding-bottom: .5rem;
+}
+#floor_1_main .about {
+padding-top: .2rem;
+}
+#floor_1_main .contW {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+#floor_1_main .contW .cont {
+	width: 6rem;
+	margin: 0 auto;
+margin-bottom: .3rem;
+font-size: .22rem;
+	color: #666;
+line-height: .4rem;
+	text-align: justify;
+}
+/*产品中心*/
+/* 产品优势 */
+/*工程案例*/
+.index #floor_4_main {
+	width: 100%;
+	background: #fff;
+}
+.index .floor_4 {
+padding-bottom: .2rem;
+	background: #f4f4f4;
+}
+.index .floor_4 .proCenter .list {
+margin-left: .2rem;
+margin-top: .3rem;
+}
+.index .floor_4 .proCenter .list li {
+	position: relative;
+	float: left;
+	display: block;
+	width: 1.86rem;
+margin-right: .2rem;
+margin-bottom: .1rem;
+}
+.index .floor_4 .proCenter .list li .img {
+	width: 100%;
+	height: 1.395rem;
+}
+.index .floor_4 .proCenter .list li .img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*新闻动态*/
+/*服务流程*/
+/*产品中心*/
+/* 搜索 */
+/*******************content*************/
+/*内页样式*/
+/*recom*/
+/*subCate*/
+/*cateList*/
+/*pager*/
+/*reLink*/
+/*m-share*/
+/*showInfor*/
+/*recomNew*/
+/*showSubTit*/
+/*news.html*/
+/*fenx*/
+/*catelist*/
+/*.list_imgH li figure{padding-top: 133.333333%;}*/
+/*.messagePage .btn .reset{width: 2.72rem; height: 0.68rem; line-height: 0.68rem; text-align: center; float: left; border: 1px solid #d2d2d2; background: #f9f9f9; color: #333333; font-size: .28rem;}*/
+/*产品导航*/
+/*字体*/
+@media only screen and (min-width:641px) {
+html {
+	font-size: 100px;
+}
+}
+@media only screen and (max-width:640px) {
+html {
+	font-size: 100px;
+}
+}
+@media only screen and (max-width:540px) {
+html {
+	font-size: 84.375px;
+}
+}
+@media only screen and (max-width:480px) {
+html {
+	font-size: 75px;
+}
+}
+@media only screen and (max-width:414px) {
+html {
+	font-size: 64.6875px;
+}
+}
+@media only screen and (max-width: 400px) {
+html {
+	font-size: 62.5px;
+}
+}
+@media only screen and (max-width: 375px) {
+html {
+	font-size: 58.5938px;
+}
+}
+@media only screen and (max-width: 360px) {
+html {
+	font-size: 56.25px;
+}
+}
+@media only screen and (max-width: 320px) {
+html {
+	font-size: 50px;
+}
+}
+/*导航动画*/
